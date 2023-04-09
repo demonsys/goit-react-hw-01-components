@@ -1,0 +1,26 @@
+.item {
+  padding: 5px 20px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: white;
+  border: 1px solid grey;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.item:hover {
+  cursor: pointer;
+}
+.status {
+  margin-right: 15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.avatar {
+  margin-right: 15px;
+}
+.name {
+  font-weight: 700;
+  font-size: 20px;
+}

@@ -1,0 +1,28 @@
+.statistics {
+  display: block;
+  width: 300px;
+  margin: 50px auto;
+  text-align: center;
+}
+.title {
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: white;
+  color: rgb(77, 75, 75);
+}
+.statList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.item {
+  width: 40px;
+  padding: 10px;
+  color: white;
+}
+.label {
+  display: block;
+}
+.percentage {
+  display: block;
+}
